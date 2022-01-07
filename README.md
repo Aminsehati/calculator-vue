@@ -4,4 +4,6 @@
 ```
 yarn install
 ```
+```
 npm install
+```

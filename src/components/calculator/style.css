@@ -1,0 +1,64 @@
+.calculator-wrapper {
+  width: 375px;
+  background: #000000;
+  border-radius: 15px;
+  color: #fff;
+  user-select: none;
+}
+.calculator-wrapper .bottom {
+  padding: 0 20px 30px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.calculator-wrapper .bottom .square.grey1 {
+  background: #4e505f;
+  font-size: 28px;
+}
+.calculator-wrapper .bottom .square {
+  width: 72px;
+  height: 72px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 24px;
+  cursor: pointer;
+}
+.calculator-wrapper .bottom .square.blue {
+  background: #4b5efc;
+  font-size: 28px;
+}
+.calculator-wrapper .bottom .square.grey2 {
+  background: #2e2f38;
+  font-size: 28px;
+}
+.calculator-wrapper .tottal {
+  min-height: 250px;
+}
+.calculator-wrapper .tottal .tottal-wrapper {
+  padding: 80px 20px 0;
+}
+.calculator-wrapper .tottal .tottal-wrapper .display {
+  margin-bottom: 15px;
+  color: rgb(255, 255, 255, 0.4);
+  font-size: 30px;
+  display: block;
+  white-space: nowrap;
+  overflow: auto;
+}
+.calculator-wrapper .tottal .tottal-wrapper .answer {
+  color: #fff;
+  font-size: 40px;
+  display: block;
+  white-space: nowrap;
+  overflow: auto;
+}
+.mr-15 {
+  margin-right: 15px;
+}
+.ml-15 {
+  margin-left: 15px;
+}
+.mt-15 {
+  margin-top: 15px;
+}

@@ -10,6 +10,7 @@
     "*.js",
     "*.json"
   ],
+  "homepage":"https://github.com/Aminsehati/calculator-vue",
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build --target lib --name calculator ./src/components/calculator/index.vue",

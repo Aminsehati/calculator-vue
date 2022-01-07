@@ -2,10 +2,7 @@
 
 ## Installation
 ```
-yarn install
-```
-```
-npm install
+npm install calculator-vue
 ```
 ## Usage
 ```

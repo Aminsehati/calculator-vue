@@ -1,6 +1,6 @@
 {
   "name": "calculator-vue",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "private": false,
   "main": "src/components/calculator/index.vue",
   "index": "src/components/calculator/index.vue",

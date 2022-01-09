@@ -13,8 +13,7 @@ components:{
    <calculator/>
 ```
 ## setup
-|```
-| Props(Parameter)	     | Type      | Default   |  Description
+| FirstName     | LastName      | City   
 | ------------- | ------------- | --------    |
-| `light`        | Boolean	         | `false	`   |
-```
+| `John`        | Test1         | `NewYork`   |
+| `Bob`         | Test2         | `Toronto`   |

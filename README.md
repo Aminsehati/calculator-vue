@@ -1,20 +1,36 @@
-# calculator-vue
-
-## Installation
+## Install
+```bash
+  npm install calculator-vue
 ```
-npm install calculator-vue
-```
-## Usage
-```
+    ## Add to project
+Global
+```javascript
+// main.js
 import calculator from "calculator-vue"
-components:{
-    calculator
-  },
-   <calculator/>
+Vue.component('Calculator', calculator);
 ```
-## setup
+Local Usage
+```javascript
+<template>
+  <div>
+      <Calculator/>
+  </div>
+</template>
+<script>
+  import calculator from "calculator-vue"
+  export default {
+    components: {calculator},
+  }
+</script> 
 ```
-| Props(Parameter)	     | Type      | Default   |  Description
-| ------------- | ------------- | --------    |
-| `light`        | Boolean	         | `false	`   |
-```
+## Support
+
+For support, email fake@fake.com or join our Slack channel.
+
+## Setup
+Parameters
+
+| Props(Parameter)| Type |              Default        | Description
+| ----------------- |--------------------- |-------------- | --------------
+| light | Number | false | ...
+

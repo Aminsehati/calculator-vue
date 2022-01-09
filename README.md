@@ -13,6 +13,6 @@ components:{
    <calculator/>
 ```
 ## setup
-| Props(Parameter)  | Type      | Default  |    Description
+| Props(Parameter)  | Type      | Default  | Description
 | ------------- | ------------- | --------    |
 | `light`        | Boolean         | `false`   |

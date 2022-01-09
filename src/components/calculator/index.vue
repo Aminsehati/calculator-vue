@@ -1,5 +1,5 @@
 <template>
-  <div class="calculator-wrapper">
+  <div :class="classes">
     <div class="tottal">
       <div class="tottal-wrapper">
         <div class="display">{{ logList + current }}</div>
@@ -25,7 +25,9 @@
       <span class="square blue mt-15" @click="plus"> + </span>
       <span class="square grey2 mt-15 mr-15" @click="dot"> . </span>
       <span class="square grey2 mt-15 mr-15" @click="append('0')"> 0 </span>
-      <span class="square grey2 mt-15 mr-15"> 3 </span>
+      <span class="square grey2 mt-15 mr-15">
+        <img :src="deleteIcon"/>
+      </span>
       <span class="square blue mt-15" @click="equal"> = </span>
     </div>
   </div>
@@ -39,7 +41,14 @@ export default {
       current: "",
       answer: "",
       operatorClicked: true,
+      deleteIcon : require('../../assets/icon/deleteIcon.svg')
     };
+  },
+  props: {
+    light: {
+      type: Boolean,
+      default: false,
+    },
   },
   methods: {
     append(number) {
@@ -98,6 +107,16 @@ export default {
       } else {
         this.answer = "WHAT?!!";
       }
+    },
+  },
+  computed: {
+    classes() {
+      return [
+        "calculator-wrapper",
+        {
+          "light-calculator": this.light,
+        },
+      ];
     },
   },
 };

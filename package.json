@@ -1,6 +1,6 @@
 {
   "name": "calculator-vue",
-  "version": "1.0.8",
+  "version": "1.0.9",
   "private": false,
   "main": "src/components/calculator/index.vue",
   "index": "src/components/calculator/index.vue",
@@ -10,7 +10,11 @@
     "*.js",
     "*.json"
   ],
-  "homepage":"https://github.com/Aminsehati/calculator-vue",
+  "homepage": "https://github.com/Aminsehati/calculator-vue",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Aminsehati/calculator-vue"
+  },
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build --target lib --name calculator ./src/components/calculator/index.vue",
